@@ -55,7 +55,7 @@ to allow for customization of the process.
 ### `--type linux-appimage`
 
 Create a Linux [AppImage][appimage]. Requires download of the 
-[AppImageTool][appimagetool], making it executable, and adding the path to the
+[appImagetool], making it executable, and adding the path to the
 configuration file.
 
 ### `--type linux-deb`
@@ -110,6 +110,6 @@ archives.
 Run `./nbpackage-<VERSION>/bin/nbpackage --help` to check.
 
 [appimage]: https://appimage.org/
-[appimagetool]: https://github.com/AppImage/AppImageKit/releases/
+[appimagetool]: https://github.com/AppImage/appimagetool/releases/
 [innosetup]: https://jrsoftware.org/isinfo.php
 [iscc]: https://jrsoftware.org/ishelp/index.php?topic=compilercmdline
